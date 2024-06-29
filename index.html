@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+      *{
+        padding: 0%;
+        margin: 0%;
+      
+      }
+      #site_container{
+        display: flex;
+     background-color: black;
+     color: white;
+       width: 100%;
+       height: 1000px;
+      }
+      #color_box1{
+        height: 20px;
+        width: 20px;
+        border: 2px  solid white;
+        border-radius: 50%;
+        background-color: rebeccapurple;
+        position: absolute;
+        left: 30px;
+        top: 20px;
+      }
+      #side_title_naming{
+        font-weight: bold;
+        font-size: 20px;
+        position: absolute;
+        left: 63px;
+        top: 20px;
+      }
+      #title_work{
+        position: absolute;
+        left: 275px;
+        top: 24px;
+      }
+      #footer_nav{
+        width: 400px;
+        height: 50px;
+        
+       position: absolute;
+       right: 20px;
+       display: flex;
+       top: 30px;
+       justify-content: space-evenly;
+       align-content: center;
+      
+      }
+      #footer_nav #Resume{
+        width: 80px;
+        height: 20px;
+        border-right: 2px solid rgb(68, 0, 255);
+        text-align: center;
+       padding-top: 3px;
+     
+      }
+      #footer_nav #Research{
+        width: 80px;
+        height: 20px;
+        border-right: 2px solid rgb(68, 0, 255);
+        text-align: center;
+       padding-top: 3px;
+     
+      }
+      #footer_nav #Outreach{
+        width: 80px;
+        height: 20px;
+        border-right: 2px solid rgb(68, 0, 255);
+        text-align: center;
+       padding-top: 3px;
+     
+      }
+        #footer_nav #Skills{
+        width: 60px;
+        height: 20px;
+        border-right: 2px solid rgb(68, 0, 255);
+        text-align: center;
+       padding-top: 3px;
+     
+      }
+      #footer_nav #Personal{
+        width: 80px;
+        height: 25px;
+       
+        text-align: center;
+       padding-top: 3px;
+     
+      }
+     #site_logo_image{
+      height: 400px;
+      width: 400px;
+      border: 2px solid white;
+      border-radius: 50%;
+      background-image: url(title_image.jpg);
+      background-size: cover;
+      
+      position: absolute;
+      top: 200px;
+      left: 300px;
+      
+       } 
+       #title_name{
+        position: absolute;
+        top: 270px;
+        left: 720px;
+        font-size: 50px;
+       }
+       #Article_heading{
+        position: absolute;
+        top: 350px;
+        left: 720px;
+        font-size: 20px;
+
+       }
+       #article_content{
+        position: absolute;
+        top: 390px;
+        left: 720px;
+        width: 300px;
+
+       }
+      #article_nav #Resume{
+        width: 100px;
+        height: 100px;
+        border: 1px solid white;
+        border-radius: 50%;
+        background-color: rebeccapurple;
+        color: black;
+        position: absolute;
+        left: 660px;
+        top: 570px;
+       text-align: center;
+       line-height: 90px;
+       letter-spacing: 1px;
+       font-size: 20px;
+       font-weight: bold;
+       transition: 1s;
+      
+      }
+ #article_nav #Resume:hover{
+        background-color: blue;
+      }
+      #article_nav #Research{
+        width: 100px;
+        height: 100px;
+        border: 1px solid white;
+        border-radius: 50%;
+        background-color: rebeccapurple;
+        color: black;
+        position: absolute;
+        left: 770px;
+        top: 570px;
+       text-align: center;
+       line-height: 90px;
+       letter-spacing: 1px;
+       font-size: 20px;
+       font-weight: bold;
+       transition: 1s;
+      
+      }
+ #article_nav #Research:hover{
+        background-color: blue;
+      }
+      #article_nav #Outreach{
+        width: 100px;
+        height: 100px;
+        border: 1px solid white;
+        border-radius: 50%;
+        background-color: rebeccapurple;
+        color: black;
+        position: absolute;
+        left: 883px;
+        top: 570px;
+       text-align: center;
+       line-height: 90px;
+       letter-spacing: 1px;
+       font-size: 20px;
+       font-weight: bold;
+       transition: 1s;
+      
+      }
+ #article_nav #Research:hover{
+        background-color: blue;
+      }
+      #article_nav #Skills{
+        width: 100px;
+        height: 100px;
+        border: 1px solid white;
+        border-radius: 50%;
+        background-color: rebeccapurple;
+        color: black;
+        position: absolute;
+        left: 995px;
+        top: 570px;
+       text-align: center;
+       line-height: 90px;
+       letter-spacing: 2px;
+       font-size: 20px;
+       font-weight: bold;
+       transition: 1s;
+      
+      }
+ #article_nav #Research:hover{
+        background-color: blue;
+      }
+      #article_nav #Personal{
+        width: 100px;
+        height: 100px;
+        border: 1px solid white;
+        border-radius: 50%;
+        background-color: rebeccapurple;
+        color: black;
+        position: absolute;
+        left: 1110px;
+        top: 570px;
+       text-align: center;
+       line-height: 90px;
+       letter-spacing: 1px;
+       font-size: 20px;
+       font-weight: bold;
+       transition: 1s;
+      
+      }
+ #article_nav #Research:hover{
+        background-color: blue;
+      }
+ 
+    </style>
+</head>
+<body>
+   <div id="site_container">
+   <footer>
+    <div id="side_title">
+        <div id="color_box1"></div>
+
+        <div id="side_title_naming"> Shivam Gupta Junior
+        </div> 
+        <div id="title_work">Software Engineer</div>    
+
+
+       <div id="footer_nav">
+
+        <div id="Resume" class="nav">  Resume</div>
+        <div id="Research" class="nav">  Research </div>
+        <div id="Outreach" class="nav">  Outreach </div>
+        <div id="Skills" class="nav">  Skills </div>
+        <div id="Personal" class="nav">  Personal </div>
+       </div>
+    </footer>
+    <article>
+    <div id="site_logo_image">
+    </div>
+
+    <div id="title_name">Shivam Gupta Junior</div>
+    <div id="Article_heading">A bit about me</div>
+    <div id="article_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, reiciendis possimus cum voluptates incidunt excepturi corporis et! Ipsum necessitatibus iure in fugit cumque sapiente facere amet dolorem, laboriosam magni cupiditate? Hello Bharat</div>
+    <div id="article_nav">
+        <div id="Resume" class="A_nav"> Resume </div>
+        <div id="Research" class="A_nav"><re> Research </re></div>
+        <div id="Outreach" class="A_nav">Outraech</div>
+        <div id="Skills" class="A_nav">Skills</div>
+        <div id="Personal" class="A_nav">Personal</div>
+       </div>
+
+</article>
+<hr>
+<footer>
+   
+    <div id="connection_nav">
+        <div id="email">Email</div>
+        <div id="github">Github</div>
+        <div id="leadcode">Leadcode</div>
+    </div>
+</footer>
+
+   </div>
+</body>
+</html>
