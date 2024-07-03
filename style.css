@@ -430,7 +430,7 @@ border: 1px solid blue;
 background-color: blue;
 }
 #check:checked~#site_container #site_logo_image{
-background-image: url(/title1_image.jpg.png);
+background-image: url(title1_image.jpg.png);
 background-size: cover;
 }
 #check:checked~#site_container #article_nav #Resume:hover{
