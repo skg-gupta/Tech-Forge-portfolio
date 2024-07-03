@@ -112,7 +112,6 @@ font-style: normal;
  #site_logo_image{
   height: 470px;
   width: 470px;
-  border: 2px solid white;
   border-radius: 50%;
   background-image: url(title_image.jpg);
   background-size: cover;
@@ -432,6 +431,7 @@ background-color: blue;
 #check:checked~#site_container #site_logo_image{
 background-image: url(title1_image.jpg);
 background-size: cover;
+border: 0.25px solid white;
 }
 #check:checked~#site_container #article_nav #Resume:hover{
 background-color: black;
