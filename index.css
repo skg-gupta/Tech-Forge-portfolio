@@ -1,0 +1,455 @@
+*{
+    padding: 0%;
+    margin: 0%;
+  
+font-family: "Atkinson Hyperlegible", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+
+
+  }
+  .jun{
+    color: #ff6c6c;
+  }
+  
+  #site_container{
+    display: flex;
+  
+background-color:rgba(243,243,243,255);
+color: black;
+transition: 1s;
+   width: 100%;
+   height: 1090px;
+  }
+  #color_box1{
+    height: 25px;
+    width: 25px;
+    
+    border-radius: 50%;
+    background-color:#ff6c6c;
+    position: absolute;
+    left: 25px;
+    top: 27px;
+  }
+  #side_title_naming{
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    left: 63px;
+    top: 25px;
+  }
+  #jun1{
+     position: absolute;
+     left:158px ;
+     top: -2px;
+    size: 20px;
+    font-size: 15px;
+font-family: "Kumar One Outline", system-ui;
+font-weight: 40;
+font-style: normal;
+
+}
+  #title_work{
+    position: absolute;
+    left: 290px;
+    top: 44px;
+    font-size: 12px;
+
+  }
+  #header_nav{
+    width: 400px;
+    height: 50px;
+    
+   position: absolute;
+   right: 20px;
+   display: flex;
+   top: 30px;
+   justify-content: space-evenly;
+   align-content: center;
+  
+  }
+  #header_nav #Resume{
+    width: 80px;
+    height: 18px;
+    border-right: 1px solid rgb(0, 0, 0);
+    text-align: center;
+   padding-top: 3px;
+ 
+  }
+  #header_nav #Research{
+    width: 80px;
+    height: 18px;
+    border-right: 1px solid rgb(0, 0, 0);
+    text-align: center;
+   padding-top: 3px;
+ 
+  }
+  #header_nav #Outreach{
+    width: 80px;
+    height: 18px;
+    border-right: 1px solid rgb(0, 0, 0);
+    text-align: center;
+   padding-top: 3px;
+ 
+  }
+  #header_nav #Skills{
+    width: 60px;
+    height: 18px;
+    border-right: 1px solid rgb(0, 0, 0);
+    text-align: center;
+   padding-top: 3px;
+ 
+  }
+  #header_nav #Personal{
+    width: 80px;
+    height: 25px;
+   
+    text-align: center;
+   padding-top: 3px;
+ 
+  }
+ #site_logo_image{
+  height: 470px;
+  width: 470px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-image: url(title_image.jpg);
+  background-size: cover;
+  
+  position: absolute;
+  top: 170px;
+  left: 280px;
+
+  
+   } 
+   #title_name{
+    position: absolute;
+    top: 260px;
+    left: 780px;
+    font-size: 60px;
+   }
+   #jun2{
+   
+     position: absolute;
+     left:380px ;
+    top:-10px;
+    
+    font-size: 40px;
+font-family: "Kumar One Outline", system-ui;
+font-weight: 40;
+font-style: normal;
+
+}
+   #Article_heading{
+    position: absolute;
+    top: 350px;
+    left: 780px;
+    font-size: 20px;
+
+   }
+   #article_content{
+    position: absolute;
+    top: 385px;
+    left: 780px;
+    width: 550px;
+
+   }
+  
+   #jun3{
+    position: absolute;
+    top: 145px;
+    left:130px;
+    font-family: "Kumar One Outline", system-ui;
+font-weight: 40;
+font-style: normal;
+   }
+  #article_nav #Resume{
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    background: #d8abec; 
+    color:rgb(0, 0, 0);
+    position: absolute;
+    left: 700px;
+    top: 590px;
+   text-align: center;
+   line-height: 90px;
+   letter-spacing: 1px;
+   font-size: 20px;
+   font-weight: bold;
+   transition: 1s;
+   
+  
+  }
+#article_nav #Resume:hover{
+    background-color: rgb(255, 255, 255);
+  }
+  #article_nav #Research{
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+   background-color: #ff8f99;
+    color: black;
+    position: absolute;
+    left: 825px;
+    top: 590px; 
+   text-align: center;
+   line-height: 90px;
+   letter-spacing: 1px;
+   font-size: 20px;
+   font-weight: bold;
+  
+  }
+#article_nav #Research:hover{
+    background-color: rgb(255, 255, 255);
+  }
+
+  #article_nav #Outreach{
+    width: 105px;
+    height: 105px;
+ 
+    border-radius: 50%;
+    background-color: #80D8DA;
+    
+    position: absolute;
+    left: 950px;
+    top: 590px;
+   text-align: center;
+   line-height: 90px;
+   letter-spacing: 1px;
+   font-size: 20px;
+   font-weight: bold;
+   transition: 1s;
+   color: rgb(0, 0, 0);
+  
+  }
+#article_nav #Outreach:hover{
+    background-color: rgb(255, 255, 255);
+  }
+  #article_nav #Skills{
+    width: 105px;
+    height: 105px;
+  
+    border-radius: 50%;
+    background-color: #f8d2ea;
+    color: black;
+    position: absolute;
+    left: 1075px;
+    top: 590px;
+   text-align: center;
+   line-height: 90px;
+   letter-spacing: 2px;
+   font-size: 20px;
+   font-weight: bold;
+   transition: 1s;
+ 
+  
+  }
+#article_nav #Skills:hover{
+    background-color: rgb(255, 255, 255);
+  }
+  #article_nav #Personal{
+    width: 105px;
+    height: 105px;
+    
+    border-radius: 50%;
+    background-color: #C7C7C7;
+    position: absolute;
+    left: 1198px;
+    top: 590px;
+   text-align: center;
+   line-height: 90px;
+   letter-spacing: 1px;
+   font-size: 20px;
+   font-weight: bold;
+   transition: 1s;
+   color: rgb(0, 0, 0);
+  
+  }
+  .A_nav{
+border: 1px solid black;
+
+  }
+#article_nav #Personal:hover{
+    background-color: rgb(255, 255, 255);
+  }
+  hr{
+    position: absolute;
+    top: 820px;
+    width: 100%;
+    color: aqua;
+
+  }
+  #email{
+    position: absolute;
+    top: 900px;
+    left: 100px;
+     line-height: 25px;
+}
+e{
+font-weight:bolder;
+letter-spacing: 1px;
+}
+#github{
+    position: absolute;
+    top: 900px;
+    left: 450px;
+     line-height: 25px;
+}
+g{
+font-weight:bolder;
+letter-spacing: 1px;
+
+}
+#github a{
+text-decoration: none;
+color: rgb(0, 0, 0);
+}
+#leetcode{
+    position: absolute;
+    top: 900px;
+    left: 800px;
+     line-height: 25px;
+}
+l{
+font-weight:bolder;
+letter-spacing: 1px;
+
+}
+#leetcode a{
+text-decoration: none;
+color: rgb(0, 0, 0);
+}
+#JSS{
+    position: absolute;
+    top: 900px;
+    left: 1150px;
+     line-height: 25px;
+}
+J{
+font-weight:bolder;
+letter-spacing: 1px;
+
+}
+#JSS a{
+text-decoration: none;
+color: rgb(0, 0, 0);
+}
+
+
+#mode_box{
+    width: 36px;
+    height: 17px;
+   background-color: rgb(0, 0, 0);
+    position: absolute;
+    border-radius: 15px;
+    top: 1px;
+    right: 1px;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+
+
+
+}
+#mode_symbol{
+    width: 18px;
+    height: 18px;
+    
+    position: absolute;
+   
+   border-radius: 50%;
+   transition: 0.5s;
+   background-color: rgb(252, 92, 94);
+}
+#check:checked~#site_container{
+  background-color: black;
+color: rgb(255, 255, 255);
+}
+#check:checked ~#site_container .mode #mode_box{
+   background-color: rgb(255, 255, 255);
+   box-shadow: 1px 1px 1px rgb(0, 0, 0);
+
+}
+#check:checked ~#site_container .mode #mode_box #mode_symbol{
+transform: translatex(19px);
+  background-color: blue;
+
+}
+
+#check:checked~#site_container  #github  a{
+
+color: rgb(255, 255, 255);
+}
+#check:checked~#site_container  #leetcode  a{
+
+color: rgb(255, 255, 255);
+}
+#check:checked~#site_container  #JSS  a{
+
+color: rgb(255, 255, 255);
+}
+#check:checked~#site_container  #article_nav #Resume{
+background-color: #FF4CAF;
+color: black;
+
+}
+
+#check:checked~#site_container  #article_nav #Research{
+background-color: #944CFF;
+color: black;
+
+}
+#check:checked~#site_container  #article_nav #Skills{
+background-color: #00BFA5;
+color: black;
+
+}
+#check:checked~#site_container  #article_nav #Personal{
+background-color:   #FF5252
+;
+color: black;
+
+}
+
+#check:checked~#site_container  #article_nav #Outreach{
+background-color: #94FF4C;
+color: black;
+
+}
+#check:checked~ #site_container #header_nav .nav{
+height: 20px;
+border-right: 2px solid blue;
+}
+#check:checked~#site_container .jun{
+color: blue;
+}
+#check:checked~#site_container .A_nav{
+border: 1px solid blue;
+}
+#check:checked~#site_container #color_box1{
+background-color: blue;
+}
+#check:checked~#site_container #site_logo_image{
+background-image: url(/title1_image.jpg.png);
+background-size: cover;
+}
+#check:checked~#site_container #article_nav #Resume:hover{
+background-color: black;
+color: white;
+}
+#check:checked~#site_container #article_nav #Research:hover{
+background-color: black;
+color: white;
+}#check:checked~#site_container #article_nav #Outreach:hover{
+background-color: black;
+color: white;
+}#check:checked~#site_container #article_nav #Skills:hover{
+background-color: black;
+color: white;
+}#check:checked~#site_container #article_nav #Personal:hover{
+background-color: black;
+color: white;
+}
+input{
+display: none;
+}
