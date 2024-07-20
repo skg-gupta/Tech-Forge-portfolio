@@ -40,7 +40,7 @@ transition: 1s;
     top: 25px;
   }
   #jun1{
-          text-decoration:line-through;
+  text-decoration:line-through;
 
      position: absolute;
      left:158px ;
@@ -135,7 +135,7 @@ font-style: normal;
      position: absolute;
      left:380px ;
     top:-10px;
-        text-decoration:line-through;
+ text-decoration:line-through;
 
     font-size: 40px;
 font-family: "Kumar One Outline", system-ui;
